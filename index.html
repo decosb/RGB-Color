@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Range Colors</title>
+</head>
+<body class="content">
+
+    <div class="container">
+        <h1 class="rgb-set-color-title">Set RGB Color</h1>
+        
+        <!--input sliders-->
+        <div class="input-sliders">
+            <p>
+                <label for="range-red">Red</label>
+                <input type="range" min="0" max="255" value="" id="range-red" class="range-red" name="range-red">
+                <span class="value-range value-range-red"></span>
+            </p>
+
+            <p>
+                <label for="range-green">Green</label>
+                <input type="range" min="0" max="255" value="" id="range-green" class="range-green" name="range-green">
+                <span class="value-range value-range-green"></span>
+            </p>
+
+            <p>
+                <label for="range-blue">Blue</label>
+                <input type="range" min="0" max="255" value="" id="range-blue" class="range-blue" name="range-blue">
+                <span class="value-range value-range-blue"></span>
+            </p>
+            <p>
+                <label for="range-alpha">alpha</label>
+                <input type="range" min="0" max="100" value="" id="range-alpha" class="range-alpha" name="range-alpha">
+                <span class="value-range value-range-alpha"></span>
+            </p>
+        </div>
+
+        <div class="get-colorRGB">
+            <input type="text" value="" name="input-text-rgb" class="input-text-rgb">
+            <span class="textGetColor"></span>
+        </div>
+
+        <p align="center"><button class="mt-20 random-rgb"></button></p>
+
+    </div>
+
+    <script src="set_colors.js"></script>
+    
+</body>
+</html>
