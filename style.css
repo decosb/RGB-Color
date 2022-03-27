@@ -1,0 +1,117 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* default classes */
+.mt-20 {
+    margin-top: 20px;
+}
+
+.container {
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    width: 600px;
+    max-width: 100vw;
+    margin: 0px auto;
+}
+
+.container > p {
+    margin-bottom: 15px;
+}
+
+.rgb-set-color-title {
+    margin: 20px 0;
+    color: rgb(87, 87, 87);
+    text-align: center;
+}
+
+.input-sliders,
+.get-colorRGB {
+    position: relative;
+    display: inline;
+    float: left;
+    height: 200px;
+    margin: 10px;
+}
+
+label {
+    display: block;
+}
+
+input {
+    display: inline-block;
+}
+
+input.input-text-rgb {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: block;
+    opacity: 0;
+    background: transparent;
+    border: none;
+    text-align: center;
+}
+
+.value-range {
+    display: inline-block;
+    width: 39px;
+    height: 25px;
+    color: white;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.value-range-red {
+    background-image: linear-gradient(45deg, red, #80344e);
+}
+
+.value-range-green {
+    background-image: linear-gradient(45deg, green, #34805a);
+}
+
+.value-range-blue {
+    background-image: linear-gradient(45deg, blue, #4a87e4);
+}
+
+.value-range-alpha {
+    background-image: linear-gradient(45deg, black, darkgrey);
+}
+
+.get-colorRGB {
+    transition: background .3s;
+    border-radius: 15px;
+    border: 5px solid #464646;
+    cursor: pointer;
+    line-height: 200px;
+}
+
+.textGetColor {
+    padding: 10px;
+    background : black;
+    color: #EEEEEE;
+    text-shadow: 2px 1px ​1px #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+}
+
+button.random-rgb {
+    border: 2px solid rgb(63, 128, 182);
+    padding: 3px 5px;
+    background:  transparent;
+    color: rgb(63, 128, 182);
+    cursor: pointer;
+    line-height: 2;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-image .5s;
+}
